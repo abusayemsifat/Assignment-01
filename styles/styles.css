@@ -23,6 +23,7 @@
 body{
   margin: 0px;
   background-color: rgba(136, 138, 142, 0.085);
+  padding: 0px;
 }
 nav{
   display: flex;
@@ -168,4 +169,32 @@ textarea{
 .m{
   margin-top: 19px;
   margin-bottom: 10px;
+}
+footer{
+  background-color: white;
+  margin-bottom: 0px;
+}
+.footer{
+  padding: 104px 455px 103px 454px;
+  margin-bottom: 0px;
+}
+footer h1{
+  font-weight: 900;
+  font-size: 100px;
+  text-align: center;
+  color: rgb(78, 71, 255);
+  align: center;
+  margin-bottom: 8px;
+}
+.m1{
+  text-align: center;
+  font-size: 13.5px;
+  color: rgb(137, 135, 161);
+  margin-top: 8px;
+  margin-bottom: 20px
+}
+ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
 }
