@@ -22,7 +22,7 @@
 }
 body{
   margin: 0px;
-  background-color: rgba(136, 138, 142, 0.055);
+  background-color: rgba(136, 138, 142, 0.085);
 }
 nav{
   display: flex;
@@ -131,4 +131,41 @@ nav h3{
 }
 .productive-user .bg p{
   color: rgba(0, 0, 0, 0.5);
+}
+form{
+  display: flex;
+  flex-direction: column;
+  width: 497px;
+}
+.get-in-touch{
+  display: flex;
+  justify-content: space-between;
+  margin: 92.23px 150px 14px 150px;
+  gap: 115px;
+  align-items: center;
+}
+.touch-btn{
+  width: 497px;
+}
+input[type="text"]{
+  border: none;
+  border-radius: 5px;
+  padding: 20px 32px;
+  background-color: white;
+}
+input[type="email"]{
+  border: none;
+  border-radius: 5px;
+  padding: 20px 32px;
+  background-color: white;
+}
+textarea{
+   border: none;
+  border-radius: 5px;
+  padding: 20px 32px;
+  background-color: white;
+}
+.m{
+  margin-top: 19px;
+  margin-bottom: 10px;
 }
