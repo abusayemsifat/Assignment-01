@@ -48,6 +48,43 @@ nav h3{
   gap: 37px;
   margin: 0px 267.5px 152px 267.5px;
 }
+.action{
+  display: flex;
+  justify-content: space-between;
+  margin: 110px 160px 116px 140px;
+  gap: 220px;
+  align-items: center;
+}
+.action-text{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 23px;
+}
+.action-title{
+  font-weight: bold;
+  font-size: 42px;
+  margin: 0px;
+}
+.action-subtitle{
+  font-size: 24px;
+  font-weight: 400;
+  margin: 0px;
+  color: rgba(37, 36, 50, 0.5);
+}
+.action-image img{
+  border-radius: 48px;
+}
+.live-btn{
+  border: none;
+  background-color: rgba(78, 71, 255, 1);
+  color: white;
+  width: 229px;
+  height: 48px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 16px;
+}
 .primary-btn{
   border: none;
   background-color: rgba(78, 71, 255, 1);
